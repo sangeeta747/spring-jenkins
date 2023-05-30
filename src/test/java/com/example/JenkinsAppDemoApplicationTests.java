@@ -15,6 +15,7 @@ class JenkinsAppDemoApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("test() executing");
+		logger.info("test() 2nd line addded executing");
 		assertThat(true);
 		
 	}
