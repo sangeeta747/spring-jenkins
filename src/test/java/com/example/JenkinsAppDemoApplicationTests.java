@@ -13,7 +13,7 @@ class JenkinsAppDemoApplicationTests {
 	static Logger logger = LoggerFactory.getLogger(JenkinsAppDemoApplicationTests.class);
 
 	@Test
-	void contextLoads() {
+	contextLoads() {
 		logger.info("test() executing");
 		logger.info("test() 2nd line addded executing");
 		assertThat(true);
